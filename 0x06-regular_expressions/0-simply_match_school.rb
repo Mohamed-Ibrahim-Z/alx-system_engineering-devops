@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 word = ARGV[0]
+
 while word =~ /School/
-  puts "School"
-  word.sub!(/School/, '')
+  print "School"
+  word = word.sub(/School/, '')
 end
